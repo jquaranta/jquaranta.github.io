@@ -4,18 +4,46 @@ body {
 
 .title {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 1.125em;
     font-weight: bold;
     font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
-.section {
-    margin-bottom: 30px;
-}
 .desc {
+	
     margin-top: 75px;
     margin-left: 75px;
-    width: 500px;
+    width: 465px;
+}
+.blurb {
+}
+.gradient {
+	background: linear-gradient(300deg, #FFE47A, #3D7EAA);
+	background-size: 800% 800%;
+	-webkit-animation: GradientMotion 13s ease infinite;
+	-moz-animation: GradientMotion 13s ease infinite;
+	-o-animation: GradientMotion 13s ease infinite;
+	animation: GradientMotion 13s ease infinite;
+}
+h2.a {
+	visibility: hidden;
+	font-size: 6pt;
+}
+
+@-webkit-keyframes GradientMotion {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientMotion {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientMotion {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 a:link {
