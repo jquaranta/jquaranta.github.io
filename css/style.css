@@ -1,0 +1,53 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+.title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.125em;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
+}
+.section {
+    margin-bottom: 30px;
+}
+.desc {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 500px;
+}
+
+@media (max-width: 350px) {
+    .desc {
+        margin-left: 0px;
+        max-width: 300px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 480px) {
+    .desc {
+        margin-left: 0px;
+        max-width: 350px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .desc {
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+}
