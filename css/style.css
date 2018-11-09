@@ -27,6 +27,10 @@ h2.a {
 	visibility: hidden;
 	font-size: 6pt;
 }
+h2.b {
+	visibility: visible;
+	font-size: 6pt;
+}
 
 @-webkit-keyframes GradientMotion {
     0%{background-position:0% 50%}
