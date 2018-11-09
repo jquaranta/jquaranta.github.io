@@ -1,21 +1,13 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
-a:link {
-    color: blue;
-}
-a:visited {
-    color: blue;
-}
-a:hover {
-    color: red;
-}
+
 .title {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 1.125em;
     font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 .section {
     margin-bottom: 30px;
@@ -24,4 +16,14 @@ a:hover {
     margin-top: 75px;
     margin-left: 75px;
     width: 500px;
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
 }
