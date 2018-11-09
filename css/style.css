@@ -45,11 +45,11 @@ h2.a {
 }
 
 a:link {
-    color: blue;
+    color: #3D7EAA;
 }
 a:visited {
-    color: blue;
+    color: #3D7EAA;
 }
 a:hover {
-    color: red;
+    color: #d8c061;
 }
